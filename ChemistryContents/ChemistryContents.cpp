@@ -16,14 +16,17 @@ double W_V()
 		if (content < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub == 0)
 		{
 			cout << "You cannot find the solution since there is not content and dissolved substance " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub > 0 || content > 0 && sub == 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -42,10 +45,12 @@ double W_V()
 		if (sol < 0 && content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -64,10 +69,12 @@ double W_V()
 		if (sol < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -96,14 +103,17 @@ double W_W()
 		if (content < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub == 0)
 		{
 			cout << "You cannot find the solution since there is not content and dissolved substance " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub > 0 || content > 0 && sub == 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -122,10 +132,12 @@ double W_W()
 		if (sol < 0 && content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -144,10 +156,12 @@ double W_W()
 		if (sol < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -176,14 +190,17 @@ double V_V()
 		if (content < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub == 0)
 		{
 			cout << "You cannot find the solution since there is not content and dissolved substance " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (content == 0 && sub > 0 || content > 0 && sub == 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -202,10 +219,12 @@ double V_V()
 		if (sol < 0 && content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
@@ -224,10 +243,12 @@ double V_V()
 		if (sol < 0 && sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
 		}
 		else
 		{
