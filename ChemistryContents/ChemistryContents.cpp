@@ -13,7 +13,7 @@ double W_V()
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (content < 0 && sub < 0)
+		if (content < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -42,7 +42,7 @@ double W_V()
 		cin >> sol;
 		cout << "Enter the content " << endl;
 		cin >> content;
-		if (sol < 0 && content < 0)
+		if (sol < 0 || content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -66,7 +66,7 @@ double W_V()
 		cin >> sol;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (sol < 0 && sub < 0)
+		if (sol < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -100,7 +100,7 @@ double W_W()
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (content < 0 && sub < 0)
+		if (content < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -129,7 +129,7 @@ double W_W()
 		cin >> sol;
 		cout << "Enter the content " << endl;
 		cin >> content;
-		if (sol < 0 && content < 0)
+		if (sol < 0 || content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -153,7 +153,7 @@ double W_W()
 		cin >> sol;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (sol < 0 && sub < 0)
+		if (sol < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -187,7 +187,7 @@ double V_V()
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (content < 0 && sub < 0)
+		if (content < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -216,7 +216,7 @@ double V_V()
 		cin >> sol;
 		cout << "Enter the content " << endl;
 		cin >> content;
-		if (sol < 0 && content < 0)
+		if (sol < 0 || content < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
@@ -240,7 +240,7 @@ double V_V()
 		cin >> sol;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
-		if (sol < 0 && sub < 0)
+		if (sol < 0 || sub < 0)
 		{
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
