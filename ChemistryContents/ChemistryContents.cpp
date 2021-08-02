@@ -28,6 +28,11 @@ double W_V()
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sol = 100 * sub / content;
@@ -52,6 +57,11 @@ double W_V()
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sub = content / 100 * sol;
@@ -74,6 +84,11 @@ double W_V()
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
+		else if (sol < sub)
+		{
+			cout << "The solution cannot be smaller than the dissolved substance " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -115,6 +130,11 @@ double W_W()
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sol = 100 * sub / content;
@@ -139,6 +159,11 @@ double W_W()
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sub = content / 100 * sol;
@@ -161,6 +186,11 @@ double W_W()
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
+		else if (sol < sub)
+		{
+			cout << "The solution cannot be smaller than the dissolved substance " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -202,6 +232,11 @@ double V_V()
 			cout << "Please enter a valid value " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sol = 100 * sub / content;
@@ -226,6 +261,11 @@ double V_V()
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
+		else if (content > 100)
+		{
+			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
 		else
 		{
 			sub = content / 100 * sol;
@@ -248,6 +288,11 @@ double V_V()
 		else if (sol == 0)
 		{
 			cout << "There is not any content and dissolved substance since there is not solution " << endl;
+			cout << "========================================================================================================================" << endl;
+		}
+		else if (sol < sub)
+		{
+			cout << "The solution cannot be smaller than the dissolved substance " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
