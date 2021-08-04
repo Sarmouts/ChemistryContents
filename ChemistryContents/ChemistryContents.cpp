@@ -30,7 +30,7 @@ double W_V()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -59,7 +59,7 @@ double W_V()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -139,7 +139,7 @@ double W_W()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -168,7 +168,7 @@ double W_W()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -248,7 +248,7 @@ double V_V()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
@@ -277,7 +277,7 @@ double V_V()
 		}
 		else if (content >= 50)
 		{
-			cout << "The content of the solution cannot be longer than 100% " << endl;
+			cout << "The dissolved substance constitue more than 50% of the solution " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 		else
