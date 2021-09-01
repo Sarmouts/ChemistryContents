@@ -39,7 +39,7 @@ double W_V()
 			cout << "The solution with content " << content << "% w/v and dissolved substance " << sub << "g is " << sol << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//solution
 	else if (a == 2)
 	{
 		double content, sol, sub;
@@ -68,7 +68,7 @@ double W_V()
 			cout << "The dissolved substance of the solution " << sol << "ml with content " << content << "% w/v is " << sub << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//disolve substance
 	else if (a == 3)
 	{
 		double content, sol, sub;
@@ -104,11 +104,11 @@ double W_V()
 				cout << "========================================================================================================================" << endl;
 			}
 		}
-	}
+	}//concetracion
 
 
 	return 0;
-}
+}//concentracion type w/v
 
 double W_W()
 {
@@ -148,7 +148,7 @@ double W_W()
 			cout << "The solution with content " << content << "% w/w and dissolved substance " << sub << "g is " << sol << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//solution
 	else if (a == 2)
 	{
 		double content, sol, sub;
@@ -177,7 +177,7 @@ double W_W()
 			cout << "The dissolved substance of the solution " << sol << "g with content " << content << "% w/w is " << sub << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//disolve substance
 	else if (a == 3)
 	{
 		double content, sol, sub;
@@ -213,11 +213,11 @@ double W_W()
 				cout << "========================================================================================================================" << endl;
 			}
 		}
-	}
+	}//concetration
 
 
 	return 0;
-}
+}//concentracion type w/w
 
 double V_V()
 {
@@ -257,7 +257,7 @@ double V_V()
 			cout << "The solution with content " << content << "% v/v and dissolved substance " << sub << "ml is " << sol << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//solution
 	else if (a == 2)
 	{
 		double content, sol, sub;
@@ -286,7 +286,7 @@ double V_V()
 			cout << "The dissolved substance of the solution " << sol << "ml with content " << content << "% v/v is " << sub << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
-	}
+	}//disolve substance
 	else if (a == 3)
 	{
 		double content, sol, sub;
@@ -322,11 +322,11 @@ double V_V()
 				cout << "========================================================================================================================" << endl;
 			}
 		}
-	}
+	}//concetration
 
 
 	return 0;
-}
+}//concentracion type v/v
 
 
 int main()
