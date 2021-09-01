@@ -331,6 +331,8 @@ double V_V()
 
 int main()
 {
+	cout << "Welcome to MathFlare's early access concentration calculator" << endl;
+	cout << "------------------------------------------------------------" << endl;
 	while (true)
 	{
 		int a;
