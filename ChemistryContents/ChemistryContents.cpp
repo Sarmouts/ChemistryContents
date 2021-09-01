@@ -4,12 +4,12 @@ using namespace std;
 double W_V()
 {
 	int a;
-	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.content " << endl;
+	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.concentration " << endl;
 	cin >> a;
 	if (a == 1)
 	{
 		double content, sol, sub;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
@@ -36,7 +36,7 @@ double W_V()
 		else
 		{
 			sol = 100 * sub / content;
-			cout << "The solution with content " << content << "% w/v and dissolved substance " << sub << "g is " << sol << "ml " << endl;
+			cout << "The solution with concentration " << content << "% w/v and dissolved substance " << sub << "g is " << sol << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//solution
@@ -45,7 +45,7 @@ double W_V()
 		double content, sol, sub;
 		cout << "Enter the solution " << endl;
 		cin >> sol;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		if (sol < 0 || content < 0)
 		{
@@ -65,7 +65,7 @@ double W_V()
 		else
 		{
 			sub = content / 100 * sol;
-			cout << "The dissolved substance of the solution " << sol << "ml with content " << content << "% w/v is " << sub << "g " << endl;
+			cout << "The dissolved substance of the solution " << sol << "ml with concentration " << content << "% w/v is " << sub << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//disolve substance
@@ -100,7 +100,7 @@ double W_V()
 				cout << "========================================================================================================================" << endl;
 			}
 			else {
-				cout << "The content of the solution " << sol << "ml and dissolved substance " << sub << "g is " << content << "% w/v " << endl;
+				cout << "The concentration of the solution " << sol << "ml and dissolved substance " << sub << "g is " << content << "% w/v " << endl;
 				cout << "========================================================================================================================" << endl;
 			}
 		}
@@ -113,12 +113,12 @@ double W_V()
 double W_W()
 {
 	int a;
-	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.content " << endl;
+	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.concentration " << endl;
 	cin >> a;
 	if (a == 1)
 	{
 		double content, sol, sub;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
@@ -145,7 +145,7 @@ double W_W()
 		else
 		{
 			sol = 100 * sub / content;
-			cout << "The solution with content " << content << "% w/w and dissolved substance " << sub << "g is " << sol << "g " << endl;
+			cout << "The solution with concentration " << content << "% w/w and dissolved substance " << sub << "g is " << sol << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//solution
@@ -154,7 +154,7 @@ double W_W()
 		double content, sol, sub;
 		cout << "Enter the solution " << endl;
 		cin >> sol;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		if (sol < 0 || content < 0)
 		{
@@ -174,7 +174,7 @@ double W_W()
 		else
 		{
 			sub = content / 100 * sol;
-			cout << "The dissolved substance of the solution " << sol << "g with content " << content << "% w/w is " << sub << "g " << endl;
+			cout << "The dissolved substance of the solution " << sol << "g with concentration " << content << "% w/w is " << sub << "g " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//disolve substance
@@ -209,7 +209,7 @@ double W_W()
 				cout << "========================================================================================================================" << endl;
 			}
 			else {
-				cout << "The content of the solution " << sol << "g and dissolved substance " << sub << "g is " << content << "% w/w " << endl;
+				cout << "The concentration of the solution " << sol << "g and dissolved substance " << sub << "g is " << content << "% w/w " << endl;
 				cout << "========================================================================================================================" << endl;
 			}
 		}
@@ -222,12 +222,12 @@ double W_W()
 double V_V()
 {
 	int a;
-	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.content " << endl;
+	cout << "What do you want to find 1.solution, 2.dissolved substance, 3.concentration " << endl;
 	cin >> a;
 	if (a == 1)
 	{
 		double content, sol, sub;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		cout << "Enter the dissolved substance " << endl;
 		cin >> sub;
@@ -254,7 +254,7 @@ double V_V()
 		else
 		{
 			sol = 100 * sub / content;
-			cout << "The solution with content " << content << "% v/v and dissolved substance " << sub << "ml is " << sol << "ml " << endl;
+			cout << "The solution with concentration " << content << "% v/v and dissolved substance " << sub << "ml is " << sol << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//solution
@@ -263,7 +263,7 @@ double V_V()
 		double content, sol, sub;
 		cout << "Enter the solution " << endl;
 		cin >> sol;
-		cout << "Enter the content " << endl;
+		cout << "Enter the concentration " << endl;
 		cin >> content;
 		if (sol < 0 || content < 0)
 		{
@@ -283,7 +283,7 @@ double V_V()
 		else
 		{
 			sub = content / 100 * sol;
-			cout << "The dissolved substance of the solution " << sol << "ml with content " << content << "% v/v is " << sub << "ml " << endl;
+			cout << "The dissolved substance of the solution " << sol << "ml with concentration " << content << "% v/v is " << sub << "ml " << endl;
 			cout << "========================================================================================================================" << endl;
 		}
 	}//disolve substance
@@ -318,7 +318,7 @@ double V_V()
 				cout << "========================================================================================================================" << endl;
 			}
 			else {
-				cout << "The content of the solution " << sol << "g and dissolved substance " << sub << "g is " << content << "% w/w " << endl;
+				cout << "The concentration of the solution " << sol << "g and dissolved substance " << sub << "g is " << content << "% w/w " << endl;
 				cout << "========================================================================================================================" << endl;
 			}
 		}
@@ -336,7 +336,7 @@ int main()
 	while (true)
 	{
 		int a;
-		cout << "Enter the type of content 1.w/w, 2.w/v, 3.v/v " << endl;
+		cout << "Enter the type of concentration 1.w/w, 2.w/v, 3.v/v " << endl;
 		cin >> a;
 
 		if (a == 1)
